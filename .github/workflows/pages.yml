@@ -28,6 +28,13 @@ jobs:
         with:
           node-version: 20
 
+      # 👇 粘贴从这里开始 👇
+      - name: Modify Hexo Config for GitHub Pages
+        run: |
+          sed -i 's|root: .*|root: /hexo/|g' _config.yml
+          sed -i 's|url: .*|url: https://${{ github.repository_owner }}.github.io/hexo|g' _config.yml
+      # 👆 粘贴到这里结束 👆
+
       - name: Install and Build
         run: |
           npm install
