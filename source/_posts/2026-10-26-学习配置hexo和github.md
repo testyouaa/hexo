@@ -1,7 +1,12 @@
 ---
 title: 学习配置hexo和github
 date: 2026-10-23 09:33:42
-tags: 西楼 博客
+
+categories: 
+  - 技术
+  - Hexo
+tags: 
+  - Hexo配置
 ---
 # 这是一个测试博客
 **上午在ai的帮助下配置hexo和github** 
