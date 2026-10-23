@@ -8,6 +8,6 @@ categories:
 tags: 
   - Hexo配置
 ---
-# 这是一个测试博客
+# 学习配置hexo和github
 **上午在ai的帮助下配置hexo和github** 
 省去了上网查资料的时间，直接配置成功。
