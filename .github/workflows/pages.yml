@@ -1,48 +1,47 @@
-name: Deploy Hexo to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+  workflow_dispatch:
 
-# 核心修复 1：授予 Actions 写入权限，解决 exit code 128 报错
+# 官方规定的权限
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  build-and-deploy:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true # 确保拉取主题等子模块
-          fetch-depth: 0
+          submodules: true
 
-      - name: Setup Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20' # 使用 Node 20 确保稳定性
+          node-version: 20
 
-      # 动态修改配置：专为 GitHub Pages 的 /hexo/ 子目录准备
-      # 这不会影响你本地的代码和 Cloudflare 的部署
-      - name: Modify Hexo Config for GitHub Pages
+      - name: Install and Build
         run: |
-          sed -i 's|url: .*|url: https://${{ github.repository_owner }}.github.io/hexo|g' _config.yml
-          sed -i 's|root: .*|root: /hexo/|g' _config.yml
-
-      - name: Install Dependencies
-        run: npm install
-
-      - name: Build
-        run: |
+          npm install
           npx hexo clean
           npx hexo generate
 
-      # 核心修复 2：升级部署插件到 v4 版本，配合更现代的 Node 环境
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          publish_branch: gh-pages # 明确指定推送到 gh-pages 分支
+          path: './public'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
