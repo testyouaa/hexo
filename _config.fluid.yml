@@ -119,7 +119,7 @@ fun_features:
   # 加载进度条
   # Progress bar when loading
   progressbar:
-    enable: true
+    enable: false
     height_px: 3
     color: "#29d"
     # See: https://github.com/rstacruz/nprogress
@@ -238,6 +238,9 @@ custom_js:
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
 custom_css:
+# 强制注入自定义样式，为所有 @font-face 开启 swap
+custom_html:
+  head: '<style>@font-face { font-display: swap !important; }</style>'
 
 # 网页访问统计
 # Analysis of website visitors
@@ -1153,6 +1156,3 @@ static_prefix:
   hint: https://lib.baomitu.com/hint.css/2.7.0/
 
   moment: https://lib.baomitu.com/moment.js/2.29.4/
-# 强制注入自定义样式，为所有 @font-face 开启 swap
-custom_html:
-  head: '<style>@font-face { font-display: swap !important; }</style>'
