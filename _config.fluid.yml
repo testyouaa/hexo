@@ -1153,3 +1153,6 @@ static_prefix:
   hint: https://lib.baomitu.com/hint.css/2.7.0/
 
   moment: https://lib.baomitu.com/moment.js/2.29.4/
+# 强制注入自定义样式，为所有 @font-face 开启 swap
+custom_html:
+  head: '<style>@font-face { font-display: swap !important; }</style>'
