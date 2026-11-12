@@ -153,20 +153,6 @@
   </url>
   
   <url>
-    <loc>https://blog.505899.xyz/tags/%E7%81%B5%E5%B2%A9%E5%AF%BA/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.505899.xyz/tags/%E6%97%85%E6%B8%B8/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.505899.xyz/tags/categories/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -175,6 +161,20 @@
   
   <url>
     <loc>https://blog.505899.xyz/tags/Hexo%E7%BB%91%E5%9F%9F%E5%90%8D/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.505899.xyz/tags/%E7%81%B5%E5%B2%A9%E5%AF%BA/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.505899.xyz/tags/%E6%97%85%E6%B8%B8/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -267,14 +267,14 @@
   </url>
   
   <url>
-    <loc>https://blog.505899.xyz/categories/%E7%94%9F%E6%B4%BB%E6%97%85%E6%B8%B8/%E6%8F%90%E5%89%8D%E9%80%80%E4%BC%91/</loc>
+    <loc>https://blog.505899.xyz/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.505899.xyz/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://blog.505899.xyz/categories/%E7%94%9F%E6%B4%BB%E6%97%85%E6%B8%B8/%E6%8F%90%E5%89%8D%E9%80%80%E4%BC%91/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
