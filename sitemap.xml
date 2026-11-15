@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.505899.xyz/about/index.html</loc>
+    
+    <lastmod>2026-11-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.505899.xyz/2026/10/25/%E6%97%A5%E5%B8%B8%E7%B5%AE%E5%8F%A8/</loc>
     
     <lastmod>2026-11-15</lastmod>
@@ -66,15 +75,6 @@
   
   <url>
     <loc>https://blog.505899.xyz/2026/11/11/%E7%88%AC%E6%B5%86%E6%B0%B4%E6%B3%898KM%E7%8E%AF%E7%BA%BF/</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.505899.xyz/about/index.html</loc>
     
     <lastmod>2026-11-12</lastmod>
     
@@ -162,6 +162,13 @@
   </url>
   
   <url>
+    <loc>https://blog.505899.xyz/tags/Hexo/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.505899.xyz/tags/%E7%81%B5%E5%B2%A9%E5%AF%BA/</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -176,13 +183,6 @@
   </url>
   
   <url>
-    <loc>https://blog.505899.xyz/tags/Hexo/</loc>
-    <lastmod>2026-11-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.505899.xyz/tags/%E6%97%A5%E5%B8%B8/</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -190,14 +190,14 @@
   </url>
   
   <url>
-    <loc>https://blog.505899.xyz/tags/Fire/</loc>
+    <loc>https://blog.505899.xyz/tags/%E5%AE%B6%E4%BA%BA/</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.505899.xyz/tags/%E5%AE%B6%E4%BA%BA/</loc>
+    <loc>https://blog.505899.xyz/tags/%E8%BF%90%E5%8A%A8/</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -218,7 +218,7 @@
   </url>
   
   <url>
-    <loc>https://blog.505899.xyz/tags/%E8%BF%90%E5%8A%A8/</loc>
+    <loc>https://blog.505899.xyz/tags/Fire/</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -262,7 +262,7 @@
   </url>
   
   <url>
-    <loc>https://blog.505899.xyz/categories/%E7%94%9F%E6%B4%BB-%E6%97%85%E6%B8%B8/</loc>
+    <loc>https://blog.505899.xyz/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -276,14 +276,14 @@
   </url>
   
   <url>
-    <loc>https://blog.505899.xyz/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://blog.505899.xyz/categories/%E6%8F%90%E5%89%8D%E9%80%80%E4%BC%91/</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.505899.xyz/categories/%E6%8F%90%E5%89%8D%E9%80%80%E4%BC%91/</loc>
+    <loc>https://blog.505899.xyz/categories/%E7%94%9F%E6%B4%BB-%E6%97%85%E6%B8%B8/</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -304,14 +304,14 @@
   </url>
   
   <url>
-    <loc>https://blog.505899.xyz/categories/%E7%94%9F%E6%B4%BB-%E6%97%85%E6%B8%B8/%E6%8F%90%E5%89%8D%E9%80%80%E4%BC%91/</loc>
+    <loc>https://blog.505899.xyz/categories/%E7%94%9F%E6%B4%BB/%E5%AE%B6%E4%BA%BA/</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.505899.xyz/categories/%E7%94%9F%E6%B4%BB/%E5%AE%B6%E4%BA%BA/</loc>
+    <loc>https://blog.505899.xyz/categories/%E7%94%9F%E6%B4%BB-%E6%97%85%E6%B8%B8/%E6%8F%90%E5%89%8D%E9%80%80%E4%BC%91/</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
