@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.505899.xyz/2026/10/25/%E6%97%A5%E5%B8%B8%E7%B5%AE%E5%8F%A8/</loc>
+    
+    <lastmod>2026-11-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.505899.xyz/2026/11/15/%E6%B5%8E%E5%8D%97%E4%B8%AD%E5%B0%8F%E5%AD%A6%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%A7%8B%E5%81%87/</loc>
     
     <lastmod>2026-11-15</lastmod>
@@ -83,15 +92,6 @@
   </url>
   
   <url>
-    <loc>https://blog.505899.xyz/2026/10/25/%E6%97%A5%E5%B8%B8%E7%B5%AE%E5%8F%A8/</loc>
-    
-    <lastmod>2026-11-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.505899.xyz/google993ab4eaa69a47ee.html</loc>
     
     <lastmod>2026-11-10</lastmod>
@@ -155,13 +155,6 @@
 
   
   <url>
-    <loc>https://blog.505899.xyz/tags/Hexo/</loc>
-    <lastmod>2026-11-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.505899.xyz/tags/Hexo%E5%BB%BA%E7%AB%99/</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -177,6 +170,13 @@
   
   <url>
     <loc>https://blog.505899.xyz/tags/%E6%97%85%E6%B8%B8/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.505899.xyz/tags/Hexo/</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -269,14 +269,14 @@
   </url>
   
   <url>
-    <loc>https://blog.505899.xyz/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://blog.505899.xyz/categories/%E7%94%9F%E6%B4%BB%E6%97%85%E6%B8%B8/%E6%8F%90%E5%89%8D%E9%80%80%E4%BC%91/</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.505899.xyz/categories/%E7%94%9F%E6%B4%BB%E6%97%85%E6%B8%B8/%E6%8F%90%E5%89%8D%E9%80%80%E4%BC%91/</loc>
+    <loc>https://blog.505899.xyz/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
